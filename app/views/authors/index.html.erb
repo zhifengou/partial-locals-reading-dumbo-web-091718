@@ -1,3 +1,6 @@
 <% @authors.each do |author| %>
-  <%=render 'authors'%>
+  <ul>
+    <li> <%= author.name %></li>
+    <li> <%= author.hometown %></li>
+  </ul>
 <% end %>
